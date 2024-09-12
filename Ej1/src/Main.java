@@ -4,7 +4,9 @@ class Persona {
 class Alumno extends Persona {
 
 }
+interface a{
 
+}
 
 public class Main {
 
@@ -17,13 +19,11 @@ public class Main {
     public static void main(String[] args) {
 
         Alumno alumno = new Alumno(){
-
         };
-        java.lang.Object alumno2=new java.lang.Object(){
-
+        a an =new a() {
         };
         imprimirJerarquiaDeClasses(alumno.getClass());
         System.out.println();
-        imprimirJerarquiaDeClasses(alumno2.getClass());
+        imprimirJerarquiaDeClasses(an.getClass());
     }
 }
