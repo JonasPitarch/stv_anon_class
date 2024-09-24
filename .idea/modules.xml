@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lambda/EJ1/EJ1.iml" filepath="$PROJECT_DIR$/Lambda/EJ1/EJ1.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ3/EJ3.iml" filepath="$PROJECT_DIR$/EJ3/EJ3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ej1/Ej1.iml" filepath="$PROJECT_DIR$/Ej1/Ej1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ej2/Ej2.iml" filepath="$PROJECT_DIR$/Ej2/Ej2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" filepath="$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" filepath="$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/stv_anon_class.iml" filepath="$PROJECT_DIR$/stv_anon_class.iml" />
     </modules>
   </component>
