@@ -20,9 +20,11 @@ public class Main {
         List<Esudiante>lista=List.of(
                 new Esudiante("Jonas",6)
                 ,new Esudiante("Michelle",7)
-                ,new Esudiante("David",8)
+                ,new Esudiante("Davic",8)
         );
         MosradorDeAlumno mosradorDeAlumno=new MosradorDeAlumno();
         mosradorDeAlumno.mostrar(lista, l -> l.nota()>=8);
+        mosradorDeAlumno.mostrar(lista, l -> l.nom().contains("C"));
+        mosradorDeAlumno.mostrar(lista,l->true);
     }
 }
