@@ -35,14 +35,12 @@ class Coche {
 public class Main {
     public static void main(String[] args) {
 
-        // Crea les llistes
         var ciudades=CreadorDeObjetos.crear(Ciudad::new,
                 List.of("Paris", "Londres", "Borriana"));
         var coches=CreadorDeObjetos.crear(Coche::new,
                 List.of("Ford", "Ferrari", "Masserati"));
         var album=CreadorDeObjetos.crear(Album::new,
                 List.of("El perdedor", "BTR","La Ultima"));
-        // Imprimeix-les
         ciudades.forEach(System.out::println);
         coches.forEach(System.out::println);
         album.forEach(System.out::println);
