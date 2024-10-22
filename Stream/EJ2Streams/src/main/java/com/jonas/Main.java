@@ -4,14 +4,16 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.Collectors;
+
 record Student(String name, double nota){
     public Student( double i){
-        this("Student" + i,i);
+        this("Student" +Double.toString(i).chars().mapToObj(c->Character.toString(c)).collect(Collectors.joining()),i);
     }
 
     @Override
     public String toString() {
-        return name + nota;
+        return name + String.format("%.1f",nota);
     }
 }
 public class Main {
