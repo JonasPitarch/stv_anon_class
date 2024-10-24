@@ -1,14 +1,17 @@
 import java.io.File;
+import java.io.IOException;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, URISyntaxException {
 //// a
 //        for (int i = 0; i < 5; i++) {
 //            System.out.println(i);
@@ -220,30 +223,36 @@ public class Main {
 //        System.out.println(uResult);
 
 // v
-        record vMarcas(List<String> coches, List<String> motos) {
-        }
-
-        var vMarcasList = List.of(
-                new vMarcas(List.of("Ferrari", "Koenigsegg"), List.of("Ducati", "Yamaha", "Harley")),
-                new vMarcas(List.of("Lamborghini", "Bugatti"), List.of("Kawasaki")),
-                new vMarcas(List.of("McLaren", "Aston Martin"), List.of())
-        );
-
-
-        var vMarcasCombined = vMarcasList.stream().collect(()->new vMarcas(new ArrayList<>(),new ArrayList<>()),(c,e)->{
-            c.coches.addAll(e.coches);
-            c.motos.addAll(e.motos);},
-                (c1,c2)->{
-            c1.coches.addAll(c2.coches);
-            c1.motos.addAll(c2.motos);
-                }
-        );
-        System.out.println(vMarcasCombined.coches);
-        System.out.println(vMarcasCombined.motos);
+//        record vMarcas(List<String> coches, List<String> motos) {
+//        }
+//
+//        var vMarcasList = List.of(
+//                new vMarcas(List.of("Ferrari", "Koenigsegg"), List.of("Ducati", "Yamaha", "Harley")),
+//                new vMarcas(List.of("Lamborghini", "Bugatti"), List.of("Kawasaki")),
+//                new vMarcas(List.of("McLaren", "Aston Martin"), List.of())
+//        );
+//
+//
+//        var vMarcasCombined = vMarcasList.stream().parallel().collect(()->new vMarcas(new ArrayList<>(),new ArrayList<>()),(c,e)->{
+//            c.coches.addAll(e.coches);
+//            c.motos.addAll(e.motos);},
+//                (c1,c2)->{
+//            c1.coches.addAll(c2.coches);
+//            c1.motos.addAll(c2.motos);
+//                }
+//        );
+//        System.out.println(vMarcasCombined.coches);
+//        System.out.println(vMarcasCombined.motos);
 
 // w
 //        String[] wDirectories = {"/tmp", "/root"};
-//
+//        Arrays.stream(wDirectories).map(s->Path.of(s)).forEach(p-> {
+//            try (var files = Files.list(p)){
+//                files.filter(f->Files.isRegularFile(f)).forEach(System.out::println);
+//            } catch (IOException e) {
+//                System.out.println("error");
+//            }
+//        });
 //        for (String directory : wDirectories) {
 //            try {
 //                for (File file : new File(directory).listFiles()) {
@@ -257,6 +266,8 @@ public class Main {
 //        }
 //
 //// x
+//        long c =Files.lines(Path.of("/usr/share/dict/spanish")).filter(l->l.endsWith("tona")).peek(System.out::println).count();
+//        System.out.println("He encontrado " + c + " palabras con tona");
 //        try {
 //            final var filePath = "/usr/share/dict/spanish";
 //            final var wordOfInterest = "tona";
@@ -277,30 +288,24 @@ public class Main {
 //        } catch (Exception ex) {
 //            System.out.println("ERROR: " + ex.getMessage());
 //        }
-//
+
 //// y
+//
 //        record Button(int x, int y) {
 //        }
 //
+//
 //        List<Button> buttons = new ArrayList<>();
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = 0; j < 3; j++) {
-//                buttons.add(new Button(i, j));
-//            }
-//        }
+//        IntStream.range(0,5)
+//                .forEach(i->IntStream.range(0,3).forEach(j->buttons.add(new Button(i,j))));
 //
 //        for (Button button : buttons) {
 //            System.out.println(button);
 //        }
 
 // z
-//        while (true) {
-//            String data = new String(new URI("https://fapik.vercel.app/api/string").toURL().openStream().readAllBytes());
-//
-//            for (char i : data.toCharArray()) {
-//                System.out.print("\033[" + ((i < 91 ? 40 : 100) + i % 7) + "m ");
-//            }
-//            System.out.println("\033[0m");
-//        }
+
+//        Stream.generate(()->new String(new URI("https://apipa.vercel.app/api/string").toURL().openStream().readAllBytes())).forEach(s->Arrays.stream(s.toCharArray()));
+
     }
 }
