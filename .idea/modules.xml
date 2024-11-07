@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Virtual/EJ3_virtual/EJ3_virtual.iml" filepath="$PROJECT_DIR$/Virtual/EJ3_virtual/EJ3_virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ5/EJ5.iml" filepath="$PROJECT_DIR$/EJ5/EJ5.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ6/EJ6.iml" filepath="$PROJECT_DIR$/EJ6/EJ6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ej1/Ej1.iml" filepath="$PROJECT_DIR$/Ej1/Ej1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Ej1Stream/Ej1Stream.iml" filepath="$PROJECT_DIR$/Stream/Ej1Stream/Ej1Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtual/Ej1_virtual/Ej1_virtual.iml" filepath="$PROJECT_DIR$/Virtual/Ej1_virtual/Ej1_virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/Ej1methos/Ej1methos.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/Ej1methos/Ej1methos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ej2/Ej2.iml" filepath="$PROJECT_DIR$/Ej2/Ej2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/Ej2Methods/Ej2Methods.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/Ej2Methods/Ej2Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtual/Ej2_Virtual/Ej2_Virtual.iml" filepath="$PROJECT_DIR$/Virtual/Ej2_Virtual/Ej2_Virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" filepath="$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Ej3Stream/Ej3Stream.iml" filepath="$PROJECT_DIR$/Stream/Ej3Stream/Ej3Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" filepath="$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtual/Ejercicio4_virtual/Ejercicio4_virtual.iml" filepath="$PROJECT_DIR$/Virtual/Ejercicio4_virtual/Ejercicio4_virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtual/Virtual.iml" filepath="$PROJECT_DIR$/Virtual/Virtual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudios/estudios.iml" filepath="$PROJECT_DIR$/estudios/estudios.iml" />
       <module fileurl="file://$PROJECT_DIR$/stv_anon_class.iml" filepath="$PROJECT_DIR$/stv_anon_class.iml" />
     </modules>
   </component>

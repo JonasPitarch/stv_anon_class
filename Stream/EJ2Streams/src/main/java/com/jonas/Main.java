@@ -23,5 +23,7 @@ public class Main {
                 .mapToObj(Student::new)
                 .map(Student::toString).toList();
         Files.write(Path.of("megastudents"),lines);
+        var mayus=Files.lines(Path.of("megastudents")).distinct().map(l->l.toUpperCase()).toList();
+        Files.write(Path.of("megastudents"),mayus);
     }
 }
