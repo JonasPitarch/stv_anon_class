@@ -14,18 +14,24 @@ public class Main {
         }
         void copiarPaginas(Libro libroOrigen) {
 
-            try {
-                bloqueo.tryLock();
-                for (String pagina : libroOrigen.obtenerPaginasInterioresNoVacias()) {
-                    int penultimaPosicion = Math.max(0, this.paginas.size() - 1);
-                    this.paginas.add(penultimaPosicion, pagina);
+            while(true) {
+                boolean lock1Adquirido = false;
+                boolean lock2Adquirido = false;
+                try {
+                    lock1Adquirido = this.bloqueo.tryLock();
+                    lock2Adquirido = libroOrigen.bloqueo.tryLock();
+
+                    if (lock1Adquirido && lock2Adquirido){
+                        for (String pagina : libroOrigen.obtenerPaginasInterioresNoVacias()) {
+                            int penultimaPosicion = Math.max(0, this.paginas.size() - 1);
+                            this.paginas.add(penultimaPosicion, pagina);
+                        }
+                        break;
+                    }
+                } finally {
+                    if (lock1Adquirido) this.bloqueo.unlock();
+                    if (lock2Adquirido) libroOrigen.bloqueo.unlock();
                 }
-            }
-            catch (Exception e) {
-                System.out.println("Tienes este error: " + e.getMessage());
-            }
-            finally {
-                bloqueo.unlock();
             }
         }
         List<String> obtenerPaginasInterioresNoVacias() {

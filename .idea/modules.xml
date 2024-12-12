@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAtomic/AccesControl/AccesControl.iml" filepath="$PROJECT_DIR$/EjerciciosAtomic/AccesControl/AccesControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAtomic/ControldeAcceso/ControldeAcceso.iml" filepath="$PROJECT_DIR$/EjerciciosAtomic/ControldeAcceso/ControldeAcceso.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosLock/DatabaseLock/DatabaseLock.iml" filepath="$PROJECT_DIR$/EjerciciosLock/DatabaseLock/DatabaseLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosLock/EJ1LOCK/EJ1LOCK.iml" filepath="$PROJECT_DIR$/EjerciciosLock/EJ1LOCK/EJ1LOCK.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ1_Syncronized/EJ1_Syncronized.iml" filepath="$PROJECT_DIR$/EJ1_Syncronized/EJ1_Syncronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAtomic/EJ2Atomic/EJ2Atomic.iml" filepath="$PROJECT_DIR$/EjerciciosAtomic/EJ2Atomic/EJ2Atomic.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ2_Syncronized/EJ2_Syncronized.iml" filepath="$PROJECT_DIR$/EJ2_Syncronized/EJ2_Syncronized.iml" />
       <module fileurl="file://$PROJECT_DIR$/Virtual/EJ3_virtual/EJ3_virtual.iml" filepath="$PROJECT_DIR$/Virtual/EJ3_virtual/EJ3_virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ4_thread/EJ4_thread.iml" filepath="$PROJECT_DIR$/EJ4_thread/EJ4_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ5/EJ5.iml" filepath="$PROJECT_DIR$/EJ5/EJ5.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJ6/EJ6.iml" filepath="$PROJECT_DIR$/EJ6/EJ6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ej1/Ej1.iml" filepath="$PROJECT_DIR$/Ej1/Ej1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAtomic/Ej1Atomic/Ej1Atomic.iml" filepath="$PROJECT_DIR$/EjerciciosAtomic/Ej1Atomic/Ej1Atomic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Ej1Stream/Ej1Stream.iml" filepath="$PROJECT_DIR$/Stream/Ej1Stream/Ej1Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/Virtual/Ej1_virtual/Ej1_virtual.iml" filepath="$PROJECT_DIR$/Virtual/Ej1_virtual/Ej1_virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/Ej1methos/Ej1methos.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/Ej1methos/Ej1methos.iml" />
@@ -20,9 +24,12 @@
       <module fileurl="file://$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" filepath="$PROJECT_DIR$/Lambda/Ej3/Ej3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Ej3Stream/Ej3Stream.iml" filepath="$PROJECT_DIR$/Stream/Ej3Stream/Ej3Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" filepath="$PROJECT_DIR$/Lambda/Ej4/Ej4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAtomic/EjerciciosAtomic.iml" filepath="$PROJECT_DIR$/EjerciciosAtomic/EjerciciosAtomic.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosLock/EjerciciosLock.iml" filepath="$PROJECT_DIR$/EjerciciosLock/EjerciciosLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen/Examen.iml" filepath="$PROJECT_DIR$/Examen/Examen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/Virtual/Virtual.iml" filepath="$PROJECT_DIR$/Virtual/Virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/estudios/estudios.iml" filepath="$PROJECT_DIR$/estudios/estudios.iml" />
