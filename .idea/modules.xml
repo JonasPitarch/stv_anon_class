@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" filepath="$PROJECT_DIR$/Lambda/MEthods/MEthods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerSocket/ServerSocket.iml" filepath="$PROJECT_DIR$/ServerSocket/ServerSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/Virtual/Virtual.iml" filepath="$PROJECT_DIR$/Virtual/Virtual.iml" />
       <module fileurl="file://$PROJECT_DIR$/estudios/estudios.iml" filepath="$PROJECT_DIR$/estudios/estudios.iml" />

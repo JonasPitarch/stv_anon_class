@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EJ2Streams" />
         <module name="EJ3_Syncronized" />
         <module name="EJ4Syncronized" />
+        <module name="EJ2Streams" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Serversocket" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
